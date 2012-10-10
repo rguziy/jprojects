@@ -13,7 +13,6 @@ import javax.xml.namespace.QName;
 import javax.xml.ws.BindingProvider;
 import javax.xml.ws.Service;
 
-import com.sun.xml.internal.ws.Closeable;
 import com.sun.xml.internal.ws.developer.JAXWSProperties;
 
 import ua.org.mybox.common.Credential;
@@ -23,7 +22,7 @@ import ua.org.mybox.server.ServerWS;
 
 public class ServerWSClient {
 
-    public final static String BASE_PATH = "C:/temp/";
+    public final static String BASE_PATH = "temp/client/";
 
     public final static String WSDL_URL = "http://localhost:9999/ws/server?wsdl";
     public final static String WS_NAME_SPACE = "http://server.mybox.org.ua/";

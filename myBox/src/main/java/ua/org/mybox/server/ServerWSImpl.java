@@ -25,7 +25,7 @@ import ua.org.mybox.common.Util;
 @WebService(endpointInterface = "ua.org.mybox.server.ServerWS")
 public class ServerWSImpl implements ServerWS {
 
-    public final static String BASE_PATH = "E:/temp/flash/";
+    public final static String BASE_PATH = "temp/server/";
 
     // Use @XmlMimeType to map to DataHandler on the client side
     public void uploadFile(Credential credential, FileInfo info,
